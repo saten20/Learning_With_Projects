@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+
+        }
+        #heading{
+            margin-left: 150px;
+        }
+        .main{
+            background-color:darkslategray;
+            height: 600px;
+            width: 700px;
+            border-radius: 10px;
+        }
+        input{
+            height: 50px;
+            width: 200px;
+            border-radius: 10px;
+            border: none;
+            padding-left: 20px;
+        }
+        .grid{
+           padding-top: 50px;
+           padding-left: 100px;
+
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            border-radius: 20px;
+            background-color: rgb(35, 39, 35);
+            color: white;
+            border: none;
+          
+        }
+    </style>
+</head>
+<body style="background-color: black; color: white;">
+    <div>
+        <h1 id="heading">TODO List</h1>
+        <div class="main">
+            <form class="grid">
+                <input type="text" placeholder="Add Your Task"/>
+                <button class="add">Add</button>
+    
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="todo.js">
+
+</script>
+</html>
